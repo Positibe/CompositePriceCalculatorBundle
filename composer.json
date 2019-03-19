@@ -1,0 +1,29 @@
+{
+    "name": "positibe/sylius-composite-price-calculator-bundle",
+    "type": "sylius-plugin",
+    "keywords": ["sylius", "sylius-plugin", "symfony", "e-commerce", "price", "symfony-bundle"],
+    "description": "Composite Price Calculator Bundle for Sylius Project.",
+    "license": "MIT",
+    "require": {
+        "php": "^7.2",
+        "sylius/core-bundle": "^1.4",
+        "symfony/config": "^4.1",
+        "symfony/dependency-injection": "^4.1",
+        "zendframework/zend-stdlib": "^3.1"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Positibe\\Sylius\\CompositePriceCalculatorBundle\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
